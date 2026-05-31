@@ -1,0 +1,87 @@
+{
+  "LogisticRegression": {
+    "Accuracy": 0.92,
+    "Precision": 0.85,
+    "Recall": 0.85,
+    "F1": 0.85,
+    "ROC_AUC": 0.952,
+    "ConfusionMatrix": [
+      [
+        52,
+        3
+      ],
+      [
+        3,
+        17
+      ]
+    ]
+  },
+  "RandomForest": {
+    "Accuracy": 0.947,
+    "Precision": 0.9,
+    "Recall": 0.9,
+    "F1": 0.9,
+    "ROC_AUC": 0.978,
+    "ConfusionMatrix": [
+      [
+        53,
+        2
+      ],
+      [
+        2,
+        18
+      ]
+    ]
+  },
+  "GradientBoosting": {
+    "Accuracy": 0.933,
+    "Precision": 0.857,
+    "Recall": 0.9,
+    "F1": 0.878,
+    "ROC_AUC": 0.942,
+    "ConfusionMatrix": [
+      [
+        52,
+        3
+      ],
+      [
+        2,
+        18
+      ]
+    ]
+  },
+  "LightGBM": {
+    "Accuracy": 0.96,
+    "Precision": 0.905,
+    "Recall": 0.95,
+    "F1": 0.927,
+    "ROC_AUC": 0.966,
+    "ConfusionMatrix": [
+      [
+        53,
+        2
+      ],
+      [
+        1,
+        19
+      ]
+    ]
+  },
+  "MLP": {
+    "Accuracy": 0.933,
+    "Precision": 0.941,
+    "Recall": 0.8,
+    "F1": 0.865,
+    "ROC_AUC": 0.961,
+    "ConfusionMatrix": [
+      [
+        54,
+        1
+      ],
+      [
+        4,
+        16
+      ]
+    ]
+  }
+}
